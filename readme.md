@@ -61,3 +61,5 @@ Why is this tidy data:
 
 * Each column contains a variable
 * Each row is an observation
+* Each column has a descriptive label
+* All values are present
