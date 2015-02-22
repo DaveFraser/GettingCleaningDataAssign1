@@ -1,17 +1,18 @@
-# UCI HAR TIDY DATA SET: MEAN ACTIVITY VALUE BY SUBJECT
-# CODEBOOK
+## UCI HAR TIDY DATA SET: MEAN ACTIVITY VALUE BY SUBJECT
+## CODEBOOK
 
-## *Data source:*
+### *Data source:*
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
 
-## *The summarised data set:*
+### *The summarised data set:*
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
+
 This summarised, tidy data set collates data from the test and training data sets as described above and provides mean values by subject / data set / activity
 
-## *For each record:*
+### *For each record:*
 
 * An identifier of the subject who carried out the experiment.
 * Which data set the subject was part of (test or training)
@@ -20,7 +21,7 @@ This summarised, tidy data set collates data from the test and training data set
 ..* For a given activity, the average triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 ..* For a given activity, the average triaxial Angular velocity from the gyroscope. 
 
-## *Description of observations:*
+### *Description of observations:*
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -30,7 +31,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Only mean and standard deviation observations were included in this dataset.
 
-## *Records:*
+### *Records:*
 
 1. subject
 2. dataSet
