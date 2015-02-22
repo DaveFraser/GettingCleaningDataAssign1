@@ -3,16 +3,16 @@ require(dplyr)
 
 ## Load in the test, train data, features header and activity type values
 
-X_testData <- read.csv("GettingData/UCI HAR Dataset/test/X_test.txt", header = FALSE, sep = "", strip.white = TRUE, colClasses="numeric") ## Load test data
-Y_testData <- read.csv("GettingData/UCI HAR Dataset/test/Y_test.txt", header= FALSE, colClasses="numeric") ## Load test activities
-subjectTest <-read.csv("GettingData/UCI HAR Dataset/test/subject_test.txt", header= FALSE) ## Load test subjects
+X_testData <- read.csv("UCI HAR Dataset/test/X_test.txt", header = FALSE, sep = "", strip.white = TRUE, colClasses="numeric") ## Load test data
+Y_testData <- read.csv("UCI HAR Dataset/test/Y_test.txt", header= FALSE, colClasses="numeric") ## Load test activities
+subjectTest <-read.csv("UCI HAR Dataset/test/subject_test.txt", header= FALSE) ## Load test subjects
 
-X_trainData <- read.csv("GettingData/UCI HAR Dataset/train/X_train.txt", header = FALSE, sep = "", strip.white = TRUE, colClasses="numeric") ## Load train data
-Y_trainData <- read.csv("GettingData/UCI HAR Dataset/train/Y_train.txt", header = FALSE, sep = "", strip.white = TRUE) ## Load train data
-subjectTrain <-read.csv("GettingData/UCI HAR Dataset/train/subject_train.txt", header= FALSE) ## Load train subjects
+X_trainData <- read.csv("UCI HAR Dataset/train/X_train.txt", header = FALSE, sep = "", strip.white = TRUE, colClasses="numeric") ## Load train data
+Y_trainData <- read.csv("UCI HAR Dataset/train/Y_train.txt", header = FALSE, sep = "", strip.white = TRUE) ## Load train data
+subjectTrain <-read.csv("UCI HAR Dataset/train/subject_train.txt", header= FALSE) ## Load train subjects
 
-featuresHeader <- read.csv("GettingData/UCI HAR Dataset/features.txt", header= FALSE, sep = "") ## load features headings 
-activityLabels <- read.csv("GettingData/UCI HAR Dataset/activity_labels.txt", header= FALSE, sep = "") ## load activity labels
+featuresHeader <- read.csv("UCI HAR Dataset/features.txt", header= FALSE, sep = "") ## load features headings 
+activityLabels <- read.csv("UCI HAR Dataset/activity_labels.txt", header= FALSE, sep = "") ## load activity labels
 colnames(activityLabels) <- c("activityIndex", "activity") ## create headers
 
 ## Merge the test data frames
