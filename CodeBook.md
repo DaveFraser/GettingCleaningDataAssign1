@@ -1,5 +1,5 @@
 ## UCI HAR TIDY DATA SET: MEAN ACTIVITY VALUE BY SUBJECT
-## CODEBOOK
+## CODEBOOK:
 
 ### *Data source:*
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
