@@ -13,9 +13,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 * This summarised, tidy data set merges data from the test and training data sets as described above and provides mean values by:
-..* Subject
-..* Data set
-..* Activity
+    * Subject
+    * Data set
+    * Activity
 
 * Data files used include:
 ..* UCI HAR Dataset\train\X_train.txt (training dataset observations)
@@ -32,8 +32,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 * Which data set the subject was part of (test or training)
 * The activity they performed
 * A description of how the observation is being calculated (for this data set, every value is an average or mean)
-..* For a given activity, the average triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-..* For a given activity, the average triaxial Angular velocity from the gyroscope. 
+    * For a given activity, the average triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+    * For a given activity, the average triaxial Angular velocity from the gyroscope. 
 
 ### *Description of observations:*
 
