@@ -30,7 +30,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 * An identifier of the subject who carried out the experiment (range 1-30)
 * Which data set the subject was part of (test or training)
-* The activity they performed
+* The activity they performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 * A description of how the observation is being calculated (for this data set, every value is an average or mean)
     * For a given activity, the average triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
     * For a given activity, the average triaxial Angular velocity from the gyroscope. 
