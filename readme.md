@@ -38,13 +38,17 @@ Having loaded in the above text files using the , two data frames are created fo
 - The activity descriptions are added based on the numeric values provided using the dplyr 'full join' function
 - Column names are added from data in the features.txt file, however this dataset contains duplicates so a unique three digit prefix is added to avoid later calculation issues
 
-3. To create the tidy data set, all but the mean and std observations must be removed, the best way I found to do this without inherently changing the underlying order of the columns was filtering using the grepl function, specifying that new columns added (subject, dataSet, activityIndex, activity) remain and and those containing either 'std' or 'mean', the original dataset is subsetted using this filter.
+3. 
+To create the tidy data set, all but the mean and std observations must be removed, the best way I found to do this without inherently changing the underlying order of the columns was filtering using the grepl function, specifying that new columns added (subject, dataSet, activityIndex, activity) remain and and those containing either 'std' or 'mean', the original dataset is subsetted using this filter.
  
-4. Three digit prefixes are no longer required so these are removed and the column names are tidied up
+4.
+Three digit prefixes are no longer required so these are removed and the column names are tidied up
 
-5. A new dataframe (tidyData) is created, cloning the original and a column inserted which describes new observations which are all averages.
+5.
+A new dataframe (tidyData) is created, cloning the original and a column inserted which describes new observations which are all averages.
 
-6. Final step is to:
+6.
+Final step is to:
     * Rearrange the columns within the data set so descriptive data is up front (subject ID, the data set the observations come from, the type of activity peformed, then all the observations)
     * Define the following groupings for the data set (by subject / by data set / by data type / by activity)
     * This is performed so that the summarise_each function understands at what level to summarise the data
