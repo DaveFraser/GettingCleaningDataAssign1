@@ -18,10 +18,10 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
     * Activity
 
 * Data files used include:
-..* UCI HAR Dataset\train\X_train.txt (training dataset observations)
-..* UCI HAR Dataset\train\Y_train.txt (training dataset subject indices)
-..* UCI HAR Dataset\test\X_test.txt (training dataset observations)
-..* UCI HAR Dataset\test\Y_test.txt (training dataset subject indices)
+    * UCI HAR Dataset\train\X_train.txt (training dataset observations)
+    * UCI HAR Dataset\train\Y_train.txt (training dataset subject indices)
+    * UCI HAR Dataset\test\X_test.txt (training dataset observations)
+    * UCI HAR Dataset\test\Y_test.txt (training dataset subject indices)
 
 * Columns / observations are named using values from *UCI HAR Dataset\features.txt*
 * Only mean and standard deviation observations are included from the original data sets
