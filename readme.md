@@ -49,6 +49,7 @@ A new dataframe (tidyData) is created, cloning the original and a column inserte
 
 6.
 Final step is to:
+
     * Rearrange the columns within the data set so descriptive data is up front (subject ID, the data set the observations come from, the type of activity peformed, then all the observations)
     * Define the following groupings for the data set (by subject / by data set / by data type / by activity)
     * This is performed so that the summarise_each function understands at what level to summarise the data
